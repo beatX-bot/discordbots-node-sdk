@@ -20,20 +20,20 @@ interface APIOptions {
 }
 
 /**
- * Top.gg API Client for Posting stats or Fetching data
+ * Discord.bots.gg API Client for Posting stats or Fetching data
  * @example
  * ```js
  * const dbots = require(`@beatx/dbots-sdk`)
  *
  * const api = new dbots.Api('Your discord.bots.gg token')
  * ```
- * @link {@link https://beatx.js.org | Library docs}
+ * @link {@link https://beatx-bot.github.io/discordbots-sdk/ | Library docs}
  * @link {@link https://discord.bots.gg/docs/endpoints | API Reference}
  */
 export class Api extends EventEmitter {
   private options: APIOptions;
   /**
-   * Create Top.gg API instance
+   * Create Discord.bots.gg API instance
    * @param {string} token Token or options
    * @param {object?} options API Options
    */

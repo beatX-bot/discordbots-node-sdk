@@ -20,7 +20,7 @@ Your Discord.bots.gg token can be found at `https://discord.bots.gg/docs` and co
 
 # Links
 
-[~~Documentation~~](#) *coming soon*
+[Documentation](https://beatx-bot.github.io/discordbots-sdk/)
 
 [API Reference](https://discord.bots.gg/docs/endpoints) | [GitHub](https://github.com/beatx-bot/discordbots-node-sdk) | [NPM](https://npmjs.com/package/@beatx/dbots-sdk)
 
