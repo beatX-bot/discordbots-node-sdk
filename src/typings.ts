@@ -116,6 +116,10 @@ export interface BotStats {
    * The amount of shards a bot has
    */
   shardCount?: number;
+  /**
+   * The bots ID
+   */
+  botId?: Snowflake;
 }
 
 export interface UserInfo {
