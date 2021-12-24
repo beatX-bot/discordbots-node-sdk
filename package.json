@@ -1,6 +1,6 @@
 {
   "name": "@beatx/dbots-sdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Unofficial Discord.bots.gg Node SDK",
   "main": "./dist/index.js",
   "scripts": {
