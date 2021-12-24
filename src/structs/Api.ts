@@ -94,9 +94,9 @@ export class Api extends EventEmitter {
    * })
    * ```
    */
-  public async postStats(stats: BotStats, id: Snowflake): Promise<BotStats> {
+  public async postStats(stats: BotStats): Promise<BotStats> {
     if (!stats || !stats.serverCount) throw new Error("Missing Server Count");
-
+    let id = stats.botId;
     /* eslint-disable camelcase */
     await this._request("POST", `/bots/${id}/stats`, {
       server_count: stats.serverCount,
