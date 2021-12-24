@@ -34,3 +34,5 @@ jobs:
         run: npm run build:ci
       - name: Lint typescript
         run: npm run lint:ci
+      - name: Build Typedocs
+        run: typedoc

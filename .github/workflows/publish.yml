@@ -16,3 +16,7 @@ jobs:
       - run: npm publish --unsafe-perm
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_SECRET}}
+      - uses: JamesIves/github-pages-deploy-action@4.1.7
+        with:
+          branch: gh-pages
+          folder: docs

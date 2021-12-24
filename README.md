@@ -10,7 +10,7 @@ However, the codebase has been modified to work with the discord.bots.gg API
 
 # Installation
 
-`yarn add @top-gg/sdk` or `npm i @beatx/dbots-api`
+`yarn add @beatx/dbots-api` or `npm i @beatx/dbots-api`
 
 # Introduction
 
