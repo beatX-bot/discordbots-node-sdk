@@ -1,7 +1,7 @@
 {
   "name": "@beatx/dbots-sdk",
-  "version": "1.0.0",
-  "description": "Official Discord.bots.gg Node SDK",
+  "version": "1.0.1",
+  "description": "Unofficial Discord.bots.gg Node SDK",
   "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
