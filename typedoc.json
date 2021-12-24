@@ -2,7 +2,7 @@
     "out": "./docs/",
     "entryPoints": ["src/index.ts"],
     "readme": "./README.md",
-    "name": "@top-gg/sdk",
+    "name": "@beatx/dbots-sdk",
     "excludeExternals": true,
     "excludePrivate": true,
     "excludeInternal": true,
